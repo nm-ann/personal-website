@@ -8,7 +8,7 @@ class Console extends Component {
             headerTextColor: 'white',
             backgroundColor: 'white',
             BodyTitlesTextColor: 'black',
-            BodyContentTextColor: 'black',
+            BodyContentTextColor: '#333f56',
             footerColor: '#333f56',
             footerIconsColor: 'white'
         }
@@ -79,7 +79,7 @@ class Console extends Component {
                             <label>> Body.titles.text.color = </label> 
                             <input type="text" placeholder="black" name="bodyTitlesTextColor" onKeyPress={this.handleKeyPress} /><br/><br/>
                             <label>> Body.content.text.color = </label> 
-                            <input type="text" placeholder="black" name="bodyContentTextColor" onKeyPress={this.handleKeyPress} /><br/><br/>
+                            <input type="text" placeholder="#333f56" name="bodyContentTextColor" onKeyPress={this.handleKeyPress} /><br/><br/>
                             <label>> Footer.color = </label> 
                             <input type="text" placeholder="#333f56" name="footerColor" onKeyPress={this.handleKeyPress} /><br/><br/>
                             <label>> Footer.icons.color = </label> 
