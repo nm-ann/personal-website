@@ -27,6 +27,7 @@ class Console extends Component {
                             break;
                         case 'headerTextColor':
                             document.querySelector('.header-title').style.color = this.state[name];
+                            //changing these is a big more complicated because the before and hover classes
                             /*/document.querySelector('.nav-link-hover').style.color = this.state[name];
                             document.querySelector('.nav-link-before').style.color = this.state[name];
                             document.querySelector('.active-link').style.color = this.state[name];/*/
